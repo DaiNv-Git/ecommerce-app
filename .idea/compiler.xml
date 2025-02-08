@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="e-commerce" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="diagram" target="17" />
+      <module name="diagrams" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
